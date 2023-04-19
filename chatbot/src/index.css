@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.react-chatbot-kit-chat-container {
+  margin: auto !important;
+  margin-top: 1rem !important;
+  max-width: 100% !important;
+  width: 40rem !important;
+}
+
+.react-chatbot-kit-chat-inner-container {
+  width: 40rem !important;
+  max-width: 100% !important;
+}
+
+.react-chatbot-kit-chat-header {
+  background-color: blue;
+}
+
+.react-chatbot-kit-chat-bot-avatar-letter {
+  color: red !important;
+  visibility: hidden;
+}
+
+.react-chatbot-kit-chat-bot-avatar-letter:after {
+  content: "⛹🏿";
+  text-align: center !important;
+  padding-right: 0.29rem;
+  padding-left: 0;
+  font-size: 1.2em;
+  visibility: visible;
+}
+
+.react-chatbot-kit-chat-bot-avatar-icon {
+  /* color: red !important; */
+  visibility: hidden;
+}
+
+.react-chatbot-kit-chat-bot-avatar-icon:after {
+  background-image: url(/src/los-angeles-lakers-lebron-james2021-min--i_ura2lt.png);
+  width: 50px;
+  height: 50px;
+  visibility: visible;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 0 !important;
+}
+
+.react-chatbot-kit-chat-btn-send {
+  background-color: rgb(208, 112, 22) !important;
+}

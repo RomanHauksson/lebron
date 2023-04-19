@@ -1,0 +1,60 @@
+{
+  "name": "better-bettors",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.23",
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11",
+    "browserify-fs": "^1.0.0",
+    "file-system": "^2.2.2",
+    "fs": "^0.0.1-security",
+    "langchain": "^0.0.56",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-chatbot-kit": "^2.1.2",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-usestateref": "^1.0.8",
+    "stream-browserify": "^3.0.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "webpack-filter-warnings-plugin": "^1.2.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
+}
