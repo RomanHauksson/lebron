@@ -1,4 +1,4 @@
-# L.E.B.R.O.N
+# L.E.B.R.O.N.
 
 L.E.B.R.O.N. is a chatbot that uses a machine learning model to predict the outcome of NBA games and give the user advice on how to make favorable sports bets, narrated by none other than LeBron James himself.
 
